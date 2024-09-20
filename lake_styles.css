@@ -1,0 +1,130 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+/* 链接标题字体 */
+@font-face {
+   font-family: cac;
+   src: url(cac_champagne.woff);
+}
+
+div{
+   font-family: cac;
+   font-size: 200%;
+}
+
+@font-face {
+   font-family: DP;
+   src: url(DobkinPlain.woff);
+}
+
+div1{
+   font-family: cac;
+   font-size: 100%;
+   color: aliceblue;
+}
+
+/*设置背景和文本颜色
+   左侧文本
+*/
+
+body > section#leftcol{
+   background-color: black;
+   color: rgb(252, 252, 252);
+}
+
+/*leftcol的aside中的文本*/
+body > section#leftcol > p{
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+#aside1{
+   background-color:rgb(235, 169, 213);
+}
+
+#aside1 > h1{
+   text-align: center;
+}
+
+#aside1 > ul > li {
+   font-size:100%;
+}
+
+#aside1 > ul > li > a{
+   color: brown;
+}
+
+#aside1 > ul > li > cite > a {
+   color: brown;
+}
+
+#aside2{
+   background-color: rgb(172, 146, 80);
+}
+
+#aside2 > h1{
+   text-align: center;
+}
+
+#aside2 > h2 {
+   font-size:90%;
+   padding-left: 3%;
+}
+
+#aside2 > p{
+   padding-left: 10%;
+   font-size: 80%;
+}
+
+/*导航栏*/
+header > nav{
+   background-color: blueviolet;
+}
+
+header > nav > ul > li > a {
+   color: aliceblue;
+   text-decoration:none;
+}
+
+/*右侧文本*/
+body > section#rightcol{
+   background-color: rgb(63, 29, 95);
+}
+
+body > section#rightcol > nav > h2{
+   padding-left: 15%;
+}
+
+body > section#rightcol > nav > ul{
+   list-style: none;
+}
+
+body > section#rightcol > nav > ul > li > a{
+   text-decoration:none;
+   color: darkgray;
+}
+
+body > section#rightcol > blockquote{
+   color:blueviolet;
+}
+
+/*footer*/
+body > footer{
+   background-color:grey;
+   text-align: center;
+   color: aliceblue;
+   font-size:70%;
+}
+
+
